@@ -24,14 +24,14 @@ public class DisplayMessageActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		// Get message from Intent
 		Intent intent = getIntent();
-		String message = intent.getStringExtra(TweetUserActivity.EXTRA_MESSAGE);
+		String message = intent.getStringExtra(TweetUserAndroidActivity.EXTRA_MESSAGE);
 		String tweetFind = readtwitter(message);
 		
 		//Create the text view
 		TextView textView = new TextView(this);
 		textView.setTextSize(40);
-		textView.setText(message);
-		setContentView(tweetFind);
+		textView.setText(tweetFind);
+		setContentView(textView);
 		
 	}
 	
