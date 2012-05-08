@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Enter a twitter user to get the latest tweet!</string>
+    <string name="app_name">User and Latest Tweet</string>
+	<string name="edit_message">Enter a user</string>
+	<string name="button_send">Retrieve</string>
+</resources>
